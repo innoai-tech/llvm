@@ -1,7 +1,9 @@
+export VERSION = 16
+
 ship: ship.buster ship.bullseye
 
 ship.buster:
-	dagger do buster pushx
+	wagon do buster pushx
 
 ship.bullseye:
-	dagger do bullseye pushx
+	wagon do bullseye pushx

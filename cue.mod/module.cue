@@ -1,7 +1,6 @@
 module: "github.com/innai-tech/llvm"
 
 require: {
-	"dagger.io":                      "v0.3.0"
-	"github.com/innoai-tech/runtime": "v0.0.0-20220818093331-15da6617afd5"
-	"universe.dagger.io":             "v0.3.0"
+	"github.com/innoai-tech/runtime": "v0.0.0-20230322054520-2ec8c8ac1b18"
+	"wagon.octohelm.tech":            "v0.0.0-20200202235959-3d91e2e3161f"
 }
