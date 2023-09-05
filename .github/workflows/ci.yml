@@ -20,7 +20,7 @@ jobs:
         os: [ "buster", "bullseye" ]
         version: [ "13", "14", "15", "16" ]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: docker/setup-qemu-action@v2
       - run: curl -sSLf https://raw.githubusercontent.com/octohelm/wagon/main/install.sh | sudo sh
 
